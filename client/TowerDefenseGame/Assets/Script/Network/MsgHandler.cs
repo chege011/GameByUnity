@@ -31,19 +31,12 @@ namespace Network
 
         public static void StartConnetToServer(string ip = Ip, int port = Port)
         {
-            if (_tcpConnection.IsNetworkManagerOk())
-            {
-                _tcpConnection.Connect(ip, port);
-            }
-            else
-            {
-                Debug.Log("tcp NetworkManager is not ok");
-            }
+          _tcpConnection.Connect(ip, port);
         }
 
         public static bool IsConnect()
         {
-            return _tcpConnection != null && _tcpConnection.IsConnect();
+            return _tcpConnection != null && _tcpConnection.State == TcpConnection.ConState.Connect;
         }
 
         // 注册收到消息之后的动作
