@@ -1,0 +1,47 @@
+syntax="proto3";
+package usercmd;
+
+enum MsgType_wzb{
+    login_REQ =0;
+	login_CNF =1;
+	match_REQ =2;
+	match_CNF =3;
+	action_REQ =4; // 完成
+	action_CNF =5;
+	action  =6;
+	deactiv_REQ =7;
+	deactiv_CNF =8;
+	reserved1 =9;
+	reserved2 =10;
+	reserved3 =11;
+}
+
+//玩家信息
+message GamePlayer{
+    string username = 1;
+	bool isHuman = 2;
+}
+//数据字典
+message Dictionary{
+	uint32 key = 1;
+	uint32 num = 2;
+}
+//战斗数据
+message BattleData{
+	repeated Dictionary troops = 1;
+}
+//
+message ChooseCal{
+	bool isCal = 1;
+}
+//战斗结果
+message BattleResult{
+	uint32 roundNum = 1;
+	bool isWin = 2;
+	bool isFinished = 5;
+	repeated Dictionary makeDamage = 3;
+	repeated Dictionary takeDamage = 4;
+}
+
+  
+  

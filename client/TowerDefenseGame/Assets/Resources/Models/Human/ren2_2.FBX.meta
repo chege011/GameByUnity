@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 11bcefd2470b0ad4dbad8bfefe337162
+timeCreated: 1517462691
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bip007
+    100002: Bip007 Head
+    100004: Bip007 HeadNub
+    100006: Bip007 L Calf
+    100008: Bip007 L Clavicle
+    100010: Bip007 L Finger0
+    100012: Bip007 L Finger0Nub
+    100014: Bip007 L Foot
+    100016: Bip007 L Forearm
+    100018: Bip007 L Hand
+    100020: Bip007 L Thigh
+    100022: Bip007 L Toe0
+    100024: Bip007 L Toe01
+    100026: Bip007 L Toe02
+    100028: Bip007 L Toe0Nub
+    100030: Bip007 L UpperArm
+    100032: Bip007 Neck
+    100034: Bip007 Pelvis
+    100036: Bip007 R Calf
+    100038: Bip007 R Clavicle
+    100040: Bip007 R Finger0
+    100042: Bip007 R Finger0Nub
+    100044: Bip007 R Foot
+    100046: Bip007 R Forearm
+    100048: Bip007 R Hand
+    100050: Bip007 R Thigh
+    100052: Bip007 R Toe0
+    100054: Bip007 R Toe01
+    100056: Bip007 R Toe02
+    100058: Bip007 R Toe0Nub
+    100060: Bip007 R UpperArm
+    100062: Bip007 Spine
+    100064: Box003
+    100066: //RootNode
+    400000: Bip007
+    400002: Bip007 Head
+    400004: Bip007 HeadNub
+    400006: Bip007 L Calf
+    400008: Bip007 L Clavicle
+    400010: Bip007 L Finger0
+    400012: Bip007 L Finger0Nub
+    400014: Bip007 L Foot
+    400016: Bip007 L Forearm
+    400018: Bip007 L Hand
+    400020: Bip007 L Thigh
+    400022: Bip007 L Toe0
+    400024: Bip007 L Toe01
+    400026: Bip007 L Toe02
+    400028: Bip007 L Toe0Nub
+    400030: Bip007 L UpperArm
+    400032: Bip007 Neck
+    400034: Bip007 Pelvis
+    400036: Bip007 R Calf
+    400038: Bip007 R Clavicle
+    400040: Bip007 R Finger0
+    400042: Bip007 R Finger0Nub
+    400044: Bip007 R Foot
+    400046: Bip007 R Forearm
+    400048: Bip007 R Hand
+    400050: Bip007 R Thigh
+    400052: Bip007 R Toe0
+    400054: Bip007 R Toe01
+    400056: Bip007 R Toe02
+    400058: Bip007 R Toe0Nub
+    400060: Bip007 R UpperArm
+    400062: Bip007 Spine
+    400064: Box003
+    400066: //RootNode
+    4300000: Box003
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Box003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
